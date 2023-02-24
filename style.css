@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+.containerCart-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f7c08a;
+  overflow-y: scroll;
+  padding: 1rem;
+  gap: 1rem;
+  height: 90vh;
+  position: relative;
+}
+.containerCart-flex > .card {
+  width: 25%;
+}
+.containerCart {
+  display: none;
+}
+
+body {
+  overflow: hidden;
+}
+#navbar {
+  height: 10vh;
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+}
+ul li {
+  list-style: none;
+  float: left;
+  padding: 25px;
+  display: block;
+  text-align: center;
+  margin-bottom: 0px;
+}
+li:hover {
+  color: #f7c08a;
+}
+li {
+  color: #ffffff;
+  font-size: large;
+}
+h1 {
+  padding: 20px;
+  cursor: pointer;
+  color: #ffffff;
+}
+h1:hover {
+  background-color: #444;
+  color: #f7c08a;
+}
+
+li:hover {
+  background-color: #444;
+  color: #f7c08a;
+  cursor: pointer;
+}
+.stock-name > p:last-child:hover {
+  background-color: #333;
+  color: #ffffff;
+  cursor: default;
+}
+
+#container {
+  display: flex;
+  height: 90vh;
+}
+.stock-name {
+  background-color: #333;
+  width: 15%;
+}
+.stock-name > p {
+  line-height: 2;
+  font-size: larger;
+  color: #ffffff;
+  padding: 20px;
+}
+.stock-name > p:hover {
+  cursor: pointer;
+  background-color: #444;
+  color: #f7c08a;
+}
+.stock {
+  width: 85%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  gap: 1rem;
+  padding: 1rem;
+  position: relative;
+  background-color: #f7c08a;
+}
+.card {
+  height: 70%;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.379);
+  background-color: #ffffff;
+}
+
+.card > img {
+  margin-top: 15px;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+.card > p {
+  margin: 15px 0px 15px 0px;
+  font-size: larger;
+}
+.cardbutton {
+  width: 35%;
+  height: 10%;
+  margin-top: auto;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0.7rem;
+  background-color: #333;
+  color: #f7c08a;
+  cursor: pointer;
+  font-size: large;
+}
+
+.cart {
+  position: absolute;
+  top: 6rem;
+  right: 2.5rem;
+}
+.cart > i {
+  font-size: 2rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.cart > i > div {
+  background-color: #ffffff;
+  font-size: small;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+}
+
+.btn-secondary {
+  width: 35%;
+  height: 10%;
+  margin-top: auto;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0.7rem;
+  background-color: #333;
+  color: #f7c08a;
+  cursor: pointer;
+  font-size: large;
+}
